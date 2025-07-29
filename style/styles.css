@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: transform 0.5s ease;
+  transform: scale(0.8);
 }
 
 section {
@@ -22,7 +24,7 @@ section {
   grid-gap: 2rem;
   perspective: 800px;
 }
-.top{
+.top {
   padding-bottom: 50px;
 }
 .card {
